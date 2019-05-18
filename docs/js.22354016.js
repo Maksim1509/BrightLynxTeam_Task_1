@@ -1,0 +1,8 @@
+parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcelRequire,u="function"==typeof require&&require;function f(t,n){if(!r[t]){if(!e[t]){var i="function"==typeof parcelRequire&&parcelRequire;if(!n&&i)return i(t,!0);if(o)return o(t,!0);if(u&&"string"==typeof t)return u(t);var c=new Error("Cannot find module '"+t+"'");throw c.code="MODULE_NOT_FOUND",c}p.resolve=function(r){return e[t][1][r]||r},p.cache={};var l=r[t]=new f.Module(t);e[t][0].call(l.exports,p,l,l.exports,this)}return r[t].exports;function p(e){return f(p.resolve(e))}}f.isParcelRequire=!0,f.Module=function(e){this.id=e,this.bundle=f,this.exports={}},f.modules=e,f.cache=r,f.parent=o,f.register=function(r,t){e[r]=[function(e,r){r.exports=t},{}]};for(var c=0;c<t.length;c++)try{f(t[c])}catch(e){i||(i=e)}if(t.length){var l=f(t[t.length-1]);"object"==typeof exports&&"undefined"!=typeof module?module.exports=l:"function"==typeof define&&define.amd?define(function(){return l}):n&&(this[n]=l)}if(parcelRequire=f,i)throw i;return f}({"Koq2":[function(require,module,exports) {
+
+},{}],"p9BF":[function(require,module,exports) {
+var e=document.querySelector(".calculator__btn"),n=document.getElementById("first_num"),t=document.getElementById("second_num");e.addEventListener("click",function(){var e=Number(n.value)+Number(t.value);console.log(e),alert("Результат: \n\n ".concat(e)),n.value="",t.value=""});
+},{}],"Y5Mt":[function(require,module,exports) {
+"use strict";require("../scss/main.scss"),require("../block/calculator/calculator");
+},{"../scss/main.scss":"Koq2","../block/calculator/calculator":"p9BF"}]},{},["Y5Mt"], null)
+//# sourceMappingURL=js.22354016.js.map
